@@ -1,11 +1,18 @@
-float promedio(Lista *lista){
-	int i;
-	int largo;
-  int suma=0;
+   float promedio(Lista *lista){
+	int i, largo, suma=0;
   
   
-	for(i=0;i<(fin(lista)-1);i++){
-		suma+=recuperar(lista);
+	for(i=0;i<Fin(lista);i++){
+		suma+=Recuperar(lista);
 	}
-	
-  return suma/(fin(lista)-1);
+
+  return suma/(Fin(lista));
+  
+}
+
+
+                   null
+lista: !0! !1! !2! !3!
+  n=3
+  n+1=4=NULL
+  fin(lista)= 4
