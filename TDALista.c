@@ -4,7 +4,5 @@
 	  for(i=0;i<Fin(lista);i++){
 		suma+=Recuperar(i,lista);
 	}
-
-  return suma/(largo);
-  
+	  return suma/(largo);
 }
