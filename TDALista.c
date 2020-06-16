@@ -3,7 +3,7 @@
   largo=Fin(lista);
   
 	for(i=0;i<Fin(lista);i++){
-		suma+=Recuperar(lista);
+		suma+=Recuperar(i,lista);
 	}
 
   return suma/(largo);
