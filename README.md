@@ -1,18 +1,11 @@
-# PruebaED
 float promedio(Lista *lista){
-	nodo* actual = (nodo*)malloc(sizeof(nodo));  <-------
-  actual = crear;
-	int i=0;
+	int i;
 	int largo;
+  int suma=0;
   
-  while(lista->siguiente!=NULL){
-  	largo++;
-  }
   
-	for(i=0;i<largo;i++){
-
+	for(i=0;i<(fin(lista)-1);i++){
+		suma+=recuperar(lista);
 	}
-
-  
-
-}
+	
+  return suma/(fin(lista)-1);
